@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Navbar */
+
+.navbar {
+  color: black;
+  padding: 40px;
+  margin-bottom: 16px;
+  background-color: #f0efec;
+}
+.navbar-brand {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar .nav-item {
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+}
+
+.header-title {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* About Card -left */
+
+.about-left-card {
+  margin: 20px;
+  border: none;
+}
+.about-right-card {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.about-name {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: bolder;
+  margin-top: -20px;
+  font-size: 60px;
+  color: black;
+  text-align: right;
+}
+
+.about-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: right;
+}
+
+.about-bio {
+  text-align: right;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.btn-project {
+  float: right;
+  padding: 20;
+  color: white;
+  background-color: #3d499f;
+}
+
+.bar {
+  width: 30px;
+  background-color: #3d499f;
+}
+
+.card-desk {
+  margin: 20px;
+  border: tomato;
+}
+
+.project-card {
+  border: none;
+}
+
+.Stockify,
+.Listly,
+.Recipie,
+.Agency,
+.Weather,
+.Team {
+  width: 100%;
+  object-fit: cover;
+}
