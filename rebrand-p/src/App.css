@@ -48,13 +48,13 @@
 .navbar-brand {
   font-family: 'DM Serif Display', serif;
   font-size: 20px;
-  color: black;
+  color: #231f20;
 }
 
 .navbar .nav-item {
   font-size: 15px;
   font-weight: 300;
-  color: black;
+  color: #231f20;
   font-family: 'Poppins', sans-serif;
   float: right;
 }
@@ -66,11 +66,11 @@
 /* About Card -left */
 
 .about-left-card {
-  margin: 20px;
+  margin: 10px;
   border: none;
 }
 .about-right-card {
-  margin: 20px;
+  margin: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-name {
@@ -78,7 +78,7 @@
   font-weight: bolder;
   margin-top: -20px;
   font-size: 60px;
-  color: black;
+  color: #231f20;
   text-align: right;
 }
 
@@ -86,6 +86,7 @@
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   text-align: right;
+  color: #231f20;
 }
 
 .about-bio {
@@ -102,13 +103,19 @@
 }
 
 .bar {
-  width: 30px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  width: 200px;
+  height: 1px;
   background-color: #3d499f;
 }
 
-.card-desk {
-  margin: 20px;
-  border: tomato;
+.icon {
+  color: darkgrey;
+}
+
+.about-deck {
+  margin: 10px;
 }
 
 .project-card {
@@ -157,7 +164,9 @@
 }
 
 .skill-card-float {
-  background-color: #e8d6c5;
+  /* background-color: #e8d6c5; */
+  background-color: #3d499f;
+  color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   /* position: absolute;
@@ -171,4 +180,39 @@
   color: white;
   background-color: #3d499f;
   padding: 20;
+}
+
+/* Resume */
+
+.resume-container {
+  background-color: #3d499f;
+  margin-top: 20px;
+  padding-top: 100px;
+  width: 100%;
+  width: fit-content;
+  color: white;
+}
+
+.btn-resume {
+  margin-top: 50px;
+  margin-right: 70px;
+  float: right;
+  padding: 20;
+  background-color: white;
+  color: #3d499f;
+}
+
+.going-container {
+  background-color: white;
+  margin-top: 20px;
+  width: 100%;
+  width: fit-content;
+}
+
+.going-card {
+  border: none;
+}
+
+.going-card-right {
+  border: none;
 }
