@@ -11,7 +11,13 @@ import Weather from '../Assets/Weather.png';
 function Skills() {
   return (
     <div>
-      <h1>Project Card</h1>
+      <p classname="Sub-Title">My Work in Action</p>
+      <h1 className="Title">Project Card</h1>
+      <p className="Title-text">
+        Hello, I’m Emily, a Front-end Developer and designer based in Austin,
+        Texas. I enjoy developing beautiful and functional websites.
+      </p>
+      <p></p>
       <CardDeck>
         <Card className="md-4 project-card">
           <Card.Body>

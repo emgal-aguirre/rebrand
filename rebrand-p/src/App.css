@@ -46,7 +46,7 @@
   background-color: #f0efec;
 }
 .navbar-brand {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 20px;
   color: black;
 }
@@ -74,7 +74,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-name {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'DM Serif Display', serif;
   font-weight: bolder;
   margin-top: -20px;
   font-size: 60px;
@@ -123,4 +123,52 @@
 .Team {
   width: 100%;
   object-fit: cover;
+}
+
+/* Project Cards */
+
+.Title {
+  font-family: 'DM Serif Display', serif;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 40px;
+}
+
+.Title-text {
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Skills card */
+
+.skills-container {
+  background-color: #f0efec;
+  margin-top: 20px;
+  width: 100%;
+  width: fit-content;
+}
+
+.skill-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-card-float {
+  background-color: #e8d6c5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* position: absolute;
+  left: 850px; */
+  margin-right: 10px;
+}
+
+.btn-skill {
+  align-items: left;
+  margin-top: 10px;
+  color: white;
+  background-color: #3d499f;
+  padding: 20;
 }

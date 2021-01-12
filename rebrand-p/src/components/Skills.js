@@ -1,50 +1,38 @@
 import React from 'react';
-import { Card, CardDeck } from 'react-bootstrap';
+import { Card, CardDeck, Button } from 'react-bootstrap';
+import '../App.css';
 
 function Skills() {
   return (
-    <CardDeck>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+    <div className="w-100 p-3 skills-container">
+      <CardDeck className="m-5">
+        <Card className="skill-card">
+          <Card.Text className="Title-text mb-0 mt-5">
+            MORE THAN A DEVELOPER
           </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+          <Card.Title className="Title">My Skills</Card.Title>
+          <Card.Text className="Title-text mb-5">
+            Hello, I’m Emily, a Front-end Developer and designer based in
+            Austin, Texas. I enjoy developing beautiful and functional websites.
+            <Button variant="light" className="btn-skill">
+              Light
+            </Button>
           </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
-        </Card.Footer>
-      </Card>
-    </CardDeck>
+        </Card>
+        <Card className="skill-card-float">
+          <Card.Body>
+            <Card.Text className="Title-text mt-4">
+              Full-Stack Development
+            </Card.Text>
+            <Card.Text className="Title-text mt-4">Web Developement</Card.Text>
+            <Card.Text className="Title-text mt-4">Web Design</Card.Text>
+            <Card.Text className="Title-text mt-4">
+              Digital Marketing & Branding
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardDeck>
+    </div>
   );
 }
 

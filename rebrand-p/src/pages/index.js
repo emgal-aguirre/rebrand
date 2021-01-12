@@ -4,6 +4,7 @@ import { Card, CardDeck, Button, CardGroup } from 'react-bootstrap';
 import '../App.css';
 import headshot from '../Assets/Headshot_EGA.png';
 import Skills from '../components/Skills';
+import ProjectCard from '../components/ProjectCard';
 
 function Index() {
   return (
@@ -43,6 +44,10 @@ function Index() {
           </Card.Body>
         </Card>
       </CardDeck>
+      <br></br>
+      <br></br>
+      <Skills />
+      <ProjectCard />
     </div>
   );
 }
